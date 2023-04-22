@@ -1,0 +1,80 @@
+* {
+    margin: 0 auto;
+}
+  
+.red {
+    background-color: red;
+  }
+  
+.green {
+    background-color: green;
+  }
+  
+.blue {
+    background-color: blue;
+  }
+
+.yellow {
+    background-color: yellow;
+  }
+.purple {
+    background-color: purple;
+  }
+  
+.orange {
+    background-color: orange;
+  }
+  
+.pink {
+    background-color: pink;
+  }
+  
+
+
+.triple {
+    display: flex;
+    height: 100px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+
+.blocks1 {
+    flex-direction: row;
+    flex: 1;
+}
+
+
+.seven {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-bottom: 50px;
+  }
+
+.subseven {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    flex: 1;
+  }
+
+.sevenblocks {
+    height: 100px;
+    flex-grow: 1;
+  }
+
+.greenone {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 600px;
+    background-color: aqua;
+    
+}
+.tripleagain {
+    flex-grow: 1;
+    margin: 30px;
+    padding: 20px;
+    font-size: 14px;
+}
